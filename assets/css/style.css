@@ -105,7 +105,8 @@ a {
 }
 
 a:hover {
-  color: #3EC1D5;
+  /* color: #3EC1D5; */
+  color: orange;
   text-decoration: none;
 }
 
@@ -134,7 +135,7 @@ body {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3ec1d5;
+  background: orange;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -147,8 +148,13 @@ body {
 }
 
 .back-to-top:hover {
-   background: #60ccdc; 
-  color: #fff;
+   background: white; 
+  color: orange;
+  border-style: double;
+  }
+.back-to-top i:hover {
+  color: orange;
+  
 }
 
 .back-to-top.active {
@@ -193,12 +199,14 @@ div#preloader {
 }
 
 ::-moz-selection {
-  background: #3EC1D5;
+  /* background: #3EC1D5; */
+  background: orange;
   text-shadow: none;
 }
 
 ::selection {
-  background: #3EC1D5;
+  /* background: #3EC1D5; */
+  background: orange;
   text-shadow: none;
 }
 
@@ -533,7 +541,9 @@ div#preloader {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #3ec1d5;
+  
+  /* color: #3ec1d5; */
+  color: orange;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -597,7 +607,7 @@ div#preloader {
 #hero h2 {
   color: #fff;
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -610,7 +620,7 @@ div#preloader {
 
 #hero p {
   width: 80%;
-  font-size: 38px;
+  font-size: 29px;
   line-height: 1.2;
   margin: 0 auto 30px auto;
   color: #fff;
@@ -702,6 +712,7 @@ font-weight: bolder;
   background: #fff;
   /* color: #3ec1d5; */
   color: orange;
+  
 }
 
 /*--------------------------------------------------------------
@@ -780,6 +791,14 @@ font-weight: bolder;
   font-size: 14px;
 }
 
+.our{
+  text-align: justify;
+  padding-left: 140px;
+}
+.Four{
+  text-align: justify;
+  padding-left: 120px;
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
