@@ -719,19 +719,22 @@ font-weight: bolder;
 # About
 --------------------------------------------------------------*/
 .about-area {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  background-color: rgb(245, 234, 234)
 }
 
 .single-well>a {
   display: block;
 }
 .single-well a img{
-  width: 33rem;
+  width: 38rem;
   margin-left: 10px;
+  margin-bottom: -30px;
+  padding-top: 10px;
 }
 
 .single-well ul li {
-  color: #444;
+  color: #606060;
   display: block;
   padding: 5px 0;
 }
@@ -2609,3 +2612,10 @@ span.email-notes {
     padding: 0;
   }
 }
+
+/* new codeeeeeeeeeee */
+
+
+
+
+
